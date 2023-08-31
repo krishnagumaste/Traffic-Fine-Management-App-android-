@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation4"
+    app:startDestination="@id/main_navigation_user">
+    <fragment
+        android:id="@+id/main_navigation_user"
+        android:name="com.example.test.main_navigation_user"
+        android:label="User Login"
+        tools:layout="@layout/fragment_main_navigation_user" />
+    <fragment
+        android:id="@+id/main_navigation_tpo"
+        android:name="com.example.test.main_navigation_tpo"
+        android:label="TPO Login"
+        tools:layout="@layout/fragment_main_navigation_tpo" />
+    <fragment
+        android:id="@+id/main_navigation_admin"
+        android:name="com.example.test.main_navigation_admin"
+        android:label="Admin Login"
+        tools:layout="@layout/fragment_main_navigation_admin" />
+    <fragment
+        android:id="@+id/main_navigation_user_signup"
+        android:name="com.example.test.main_navigation_user_signup"
+        android:label="New User"
+        tools:layout="@layout/fragment_main_navigation_user_signup" />
+</navigation>

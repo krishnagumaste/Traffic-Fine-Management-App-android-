@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_navigation_user"
+            android:icon="@drawable/user_svgrepo_com"
+            android:title="@string/main_user" />
+        <item
+            android:id="@+id/main_navigation_user_signup"
+            android:icon="@drawable/user_add_svgrepo_com"
+            android:title="@string/main_user_signup" />
+        <item
+            android:id="@+id/main_navigation_tpo"
+            android:icon="@drawable/police_security_policeman_svgrepo_com"
+            android:title="@string/main_tpo" />
+        <item
+            android:id="@+id/main_navigation_admin"
+            android:icon="@drawable/admin_svgrepo_com"
+            android:title="@string/main_admin" />
+    </group>
+</menu>

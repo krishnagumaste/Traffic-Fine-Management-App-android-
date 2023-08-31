@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home2"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_vehicle"
+            android:icon="@drawable/baseline_directions_car_24"
+            android:title="@string/menu_vehicle" />
+        <item
+            android:id="@+id/nav_fine_pending"
+            android:icon="@drawable/baseline_pending_actions_24"
+            android:title="@string/menu_fine_pending" />
+    </group>
+</menu>

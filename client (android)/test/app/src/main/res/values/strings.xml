@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="title_activity_nav_draw">nav_draw</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Traffic FIne Management</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_signout">Sign Out</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_vehicle">Vehicle</string>
+    <string name="menu_fine_pending">Fine Pending</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nav_tpo">nav_tpo</string>
+    <string name="nav_tpo_driver">Driver Details</string>
+    <string name="nav_tpo_vehicle">Vehicle Details</string>
+    <string name="title_activity_nav_admin">NavAdminActivity</string>
+    <string name="nav_admin_new_tpo">Add TPO</string>
+    <string name="welcome_description">Discover a Smarter Way to Manage Traffic Fines.</string>
+    <string name="title_activity_main_nav">main_nav</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_main_navigation">main_navigation</string>
+    <string name="main_user">User Login</string>
+    <string name="main_tpo">TPO Login</string>
+    <string name="main_admin">Admin Login</string>
+    <string name="main_user_signup">New User</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation3"
+    app:startDestination="@id/home_admin">
+    <fragment
+        android:id="@+id/home_admin"
+        android:name="com.example.test.home_admin"
+        android:label="Admin Home"
+        tools:layout="@layout/fragment_home_admin" />
+    <fragment
+        android:id="@+id/new_tpo_admin"
+        android:name="com.example.test.new_tpo_admin"
+        android:label="Add TPO"
+        tools:layout="@layout/fragment_new_tpo_admin" />
+</navigation>
